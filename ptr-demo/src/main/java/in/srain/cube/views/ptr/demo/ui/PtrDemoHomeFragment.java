@@ -257,7 +257,7 @@ public class PtrDemoHomeFragment extends BlockMenuFragment {
 
         final PtrFrameLayout ptrFrameLayout = (PtrFrameLayout) view.findViewById(R.id.fragment_ptr_home_ptr_frame);
         StoreHouseHeader header = new StoreHouseHeader(getContext());
-        header.setPadding(0, LocalDisplay.dp2px(20), 0, LocalDisplay.dp2px(20));
+        header.setPadding(0, LocalDisplay.dp2px(10), 0, LocalDisplay.dp2px(10));
         header.initWithString("Ultra PTR");
 
         ptrFrameLayout.setDurationToCloseHeader(1500);
@@ -265,7 +265,7 @@ public class PtrDemoHomeFragment extends BlockMenuFragment {
         ptrFrameLayout.addPtrUIHandler(header);
 
         StoreHouseHeader footer = new StoreHouseHeader(getContext());
-        footer.setPadding(0, LocalDisplay.dp2px(20), 0, LocalDisplay.dp2px(20));
+        footer.setPadding(0, LocalDisplay.dp2px(5), 0, LocalDisplay.dp2px(5));
         footer.initWithString("Ultra Footer");
 
         ptrFrameLayout.setFooterView(footer);

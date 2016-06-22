@@ -8,12 +8,13 @@ import android.graphics.PointF;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Transformation;
+
+import java.util.ArrayList;
+
 import in.srain.cube.views.ptr.PtrFrameLayout;
 import in.srain.cube.views.ptr.PtrUIHandler;
 import in.srain.cube.views.ptr.indicator.PtrIndicator;
 import in.srain.cube.views.ptr.util.PtrLocalDisplay;
-
-import java.util.ArrayList;
 
 public class StoreHouseHeader extends View implements PtrUIHandler {
 
@@ -151,7 +152,6 @@ public class StoreHouseHeader extends View implements PtrUIHandler {
     }
 
     public void initWithPointList(ArrayList<float[]> pointList) {
-
         float drawWidth = 0;
         float drawHeight = 0;
         boolean shouldLayout = mItemList.size() > 0;

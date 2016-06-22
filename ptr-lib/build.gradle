@@ -28,4 +28,12 @@ android {
 apply from: rootProject.file('gradle/android-artifacts.gradle')
 apply from: rootProject.file('gradle/gradle-jcenter-push.gradle')
 //apply from: "bintrayUpload.gradle"
+//dependencies {
+//    compile 'in.srain.cube:cube-sdk:1.0.44'
+//}
+//dependencies {
+//    compile 'in.srain.cube:cube-sdk:1.0.44'
+//}
+
+
 

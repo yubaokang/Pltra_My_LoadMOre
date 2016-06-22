@@ -28,7 +28,7 @@
 
         <activity
             android:name=".ui.viewpager.ViewPagerActivity"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
         <activity android:name=".ui.classic.RecyclerVIewTest" />
     </application>
 
